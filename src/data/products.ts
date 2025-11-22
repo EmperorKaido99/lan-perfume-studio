@@ -19,7 +19,7 @@ export const products: Product[] = [
     name: "Noir Elegance",
     price: 189,
     category: "Eau de Parfum",
-    image: "/src/assets/product-1.jpg",
+    image: "/src/assets/product-real-1.jpg",
     description: "A captivating blend of mystery and sophistication. Noir Elegance opens with fresh bergamot and transitions into a heart of rose and jasmine, settling on a warm base of amber and vanilla.",
     notes: {
       top: ["Bergamot", "Black Pepper", "Cardamom"],
@@ -32,8 +32,8 @@ export const products: Product[] = [
     id: "2",
     name: "Golden Dawn",
     price: 169,
-    category: "Eau de Toilette",
-    image: "/src/assets/product-2.jpg",
+    category: "Body Cream",
+    image: "/src/assets/product-real-2.jpg",
     description: "Embrace the warmth of a new beginning. Golden Dawn features citrus notes that evolve into floral elegance, finished with hints of musk and cedar.",
     notes: {
       top: ["Mandarin", "Lemon", "Grapefruit"],
@@ -47,7 +47,7 @@ export const products: Product[] = [
     name: "Midnight Essence",
     price: 199,
     category: "Parfum",
-    image: "/src/assets/product-3.jpg",
+    image: "/src/assets/product-real-3.jpg",
     description: "An intense and unforgettable fragrance for the bold. Midnight Essence combines spicy notes with deep woods and leather for a truly distinctive character.",
     notes: {
       top: ["Saffron", "Nutmeg", "Cinnamon"],
@@ -60,8 +60,8 @@ export const products: Product[] = [
     id: "4",
     name: "Rose Imperial",
     price: 179,
-    category: "Eau de Parfum",
-    image: "/src/assets/product-4.jpg",
+    category: "Body Powder",
+    image: "/src/assets/product-real-4.jpg",
     description: "A luxurious tribute to the queen of flowers. Rose Imperial is a rich, velvety fragrance that celebrates the timeless beauty of rose with modern sophistication.",
     notes: {
       top: ["Pink Pepper", "Mandarin"],
