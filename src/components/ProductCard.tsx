@@ -33,7 +33,7 @@ const ProductCard = ({ id, name, price, image, category }: ProductCardProps) => 
             {name}
           </h3>
         </Link>
-        <p className="text-primary font-body font-semibold">${price}</p>
+        <p className="text-primary font-body font-semibold">R{price}</p>
         <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
           Add to Cart
         </Button>

@@ -66,7 +66,7 @@ const Product = () => {
                 {product.name}
               </h1>
               <p className="text-3xl text-primary font-body font-bold">
-                ${product.price}
+                R{product.price}
               </p>
             </div>
 
