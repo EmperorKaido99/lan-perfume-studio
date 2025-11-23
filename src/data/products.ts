@@ -17,7 +17,7 @@ export const products: Product[] = [
   {
     id: "1",
     name: "Noir Elegance",
-    price: 189,
+    price: 250,
     category: "Eau de Parfum",
     image: "/src/assets/product-real-1.jpg",
     description: "A captivating blend of mystery and sophistication. Noir Elegance opens with fresh bergamot and transitions into a heart of rose and jasmine, settling on a warm base of amber and vanilla.",
@@ -31,7 +31,7 @@ export const products: Product[] = [
   {
     id: "2",
     name: "Golden Dawn",
-    price: 169,
+    price: 60,
     category: "Body Cream",
     image: "/src/assets/product-real-2.jpg",
     description: "Embrace the warmth of a new beginning. Golden Dawn features citrus notes that evolve into floral elegance, finished with hints of musk and cedar.",
@@ -45,7 +45,7 @@ export const products: Product[] = [
   {
     id: "3",
     name: "Midnight Essence",
-    price: 199,
+    price: 250,
     category: "Parfum",
     image: "/src/assets/product-real-3.jpg",
     description: "An intense and unforgettable fragrance for the bold. Midnight Essence combines spicy notes with deep woods and leather for a truly distinctive character.",
@@ -59,7 +59,7 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Rose Imperial",
-    price: 179,
+    price: 60,
     category: "Body Powder",
     image: "/src/assets/product-real-4.jpg",
     description: "A luxurious tribute to the queen of flowers. Rose Imperial is a rich, velvety fragrance that celebrates the timeless beauty of rose with modern sophistication.",
@@ -73,7 +73,7 @@ export const products: Product[] = [
   {
     id: "5",
     name: "Crystal Essence",
-    price: 159,
+    price: 250,
     category: "Eau de Parfum",
     image: "/src/assets/product-real-5.jpg",
     description: "Fresh and invigorating, Crystal Essence captures pure elegance with its crystal bottle design and refined notes that last all day.",
@@ -87,7 +87,7 @@ export const products: Product[] = [
   {
     id: "6",
     name: "Luxe Cream",
-    price: 149,
+    price: 60,
     category: "Body Cream",
     image: "/src/assets/product-real-6.jpg",
     description: "Indulgent body cream that hydrates and perfumes the skin with a luxurious, long-lasting fragrance that complements our signature scents.",
@@ -101,7 +101,7 @@ export const products: Product[] = [
   {
     id: "7",
     name: "Royal Signature",
-    price: 219,
+    price: 250,
     category: "Parfum",
     image: "/src/assets/product-real-7.jpg",
     description: "Our most prestigious fragrance in an elegant square bottle. Royal Signature represents the pinnacle of luxury with its bold, unforgettable scent.",
@@ -115,7 +115,7 @@ export const products: Product[] = [
   {
     id: "8",
     name: "Golden Powder",
-    price: 139,
+    price: 60,
     category: "Body Powder",
     image: "/src/assets/product-real-8.jpg",
     description: "Silky body powder with a subtle fragrance that keeps you feeling fresh and luxurious throughout the day. Perfect for layering with our perfumes.",
