@@ -88,7 +88,7 @@ const Contact = () => {
                     <div>
                       <p className="font-body text-foreground">Email</p>
                       <p className="font-body text-muted-foreground">
-                        info@kmfragrances.com
+                        smutskeanu4@gmail.com
                       </p>
                     </div>
                   </div>
@@ -97,18 +97,7 @@ const Contact = () => {
                     <div>
                       <p className="font-body text-foreground">Phone</p>
                       <p className="font-body text-muted-foreground">
-                        +1 (555) 123-4567
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <MapPin className="h-5 w-5 text-primary mt-1" />
-                    <div>
-                      <p className="font-body text-foreground">Address</p>
-                      <p className="font-body text-muted-foreground">
-                        123 Luxury Avenue
-                        <br />
-                        New York, NY 10001
+                        0665304773
                       </p>
                     </div>
                   </div>
