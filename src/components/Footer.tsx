@@ -54,7 +54,7 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="text-muted-foreground font-body text-sm flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                info@kmfragrances.com
+                smutskeanu4@gmail.com
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

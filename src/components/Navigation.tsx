@@ -44,15 +44,8 @@ const Navigation = () => {
             </Link>
           </div>
 
-          {/* Cart & Mobile Menu */}
+          {/* Mobile Menu */}
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="relative">
-              <ShoppingCart className="h-5 w-5" />
-              <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                0
-              </span>
-            </Button>
-
             {/* Mobile Menu Button */}
             <Button
               variant="ghost"
