@@ -106,54 +106,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20 container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-            What Our Clients Say About Us
-          </h2>
-        </div>
-        <div className="grid md:grid-cols-3 gap-8">
-          {[
-            {
-              name: "Anna Davis",
-              review:
-                "The scent is absolutely divine! It lasts all day and I constantly receive compliments. KM Fragrances has become my go-to brand.",
-              rating: 5,
-            },
-            {
-              name: "Michael Chen",
-              review:
-                "Exceptional quality and sophisticated packaging. The Noir Elegance is my signature scent now. Highly recommended!",
-              rating: 5,
-            },
-            {
-              name: "Sophie Laurent",
-              review:
-                "I've tried many luxury perfumes, but KM Fragrances stands out. The attention to detail and unique blends are remarkable.",
-              rating: 5,
-            },
-          ].map((testimonial, index) => (
-            <div
-              key={index}
-              className="bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors"
-            >
-              <div className="flex mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-primary text-primary" />
-                ))}
-              </div>
-              <p className="font-body text-muted-foreground mb-4 italic">
-                "{testimonial.review}"
-              </p>
-              <p className="font-display text-foreground font-semibold">
-                {testimonial.name}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <Footer />
     </div>
   );
