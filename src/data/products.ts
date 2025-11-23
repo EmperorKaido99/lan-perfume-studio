@@ -72,11 +72,11 @@ export const products: Product[] = [
   },
   {
     id: "5",
-    name: "Ocean Breeze",
+    name: "Crystal Essence",
     price: 159,
-    category: "Body Lotion",
-    image: "/src/assets/product-5.jpg",
-    description: "Fresh and invigorating, Ocean Breeze captures the essence of coastal air with aquatic notes and fresh citrus, perfect for everyday elegance.",
+    category: "Eau de Parfum",
+    image: "/src/assets/product-real-5.jpg",
+    description: "Fresh and invigorating, Crystal Essence captures pure elegance with its crystal bottle design and refined notes that last all day.",
     notes: {
       top: ["Sea Salt", "Bergamot", "Mint"],
       heart: ["Marine Accord", "Lavender"],
@@ -86,16 +86,44 @@ export const products: Product[] = [
   },
   {
     id: "6",
-    name: "Velvet Night",
-    price: 209,
-    category: "Parfum",
-    image: "/src/assets/product-6.jpg",
-    description: "Seductive and mysterious, Velvet Night is a rich oriental fragrance that envelops the senses with exotic spices and precious woods.",
+    name: "Luxe Cream",
+    price: 149,
+    category: "Body Cream",
+    image: "/src/assets/product-real-6.jpg",
+    description: "Indulgent body cream that hydrates and perfumes the skin with a luxurious, long-lasting fragrance that complements our signature scents.",
     notes: {
       top: ["Star Anise", "Pink Pepper"],
       heart: ["Turkish Rose", "Incense", "Myrrh"],
       base: ["Agarwood", "Vanilla", "Leather"]
     },
     ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Benzyl Benzoate", "Cinnamal"]
+  },
+  {
+    id: "7",
+    name: "Royal Signature",
+    price: 219,
+    category: "Parfum",
+    image: "/src/assets/product-real-7.jpg",
+    description: "Our most prestigious fragrance in an elegant square bottle. Royal Signature represents the pinnacle of luxury with its bold, unforgettable scent.",
+    notes: {
+      top: ["Saffron", "Bergamot", "Cardamom"],
+      heart: ["Oud", "Rose", "Jasmine"],
+      base: ["Amber", "Sandalwood", "Musk"]
+    },
+    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Linalool"]
+  },
+  {
+    id: "8",
+    name: "Golden Powder",
+    price: 139,
+    category: "Body Powder",
+    image: "/src/assets/product-real-8.jpg",
+    description: "Silky body powder with a subtle fragrance that keeps you feeling fresh and luxurious throughout the day. Perfect for layering with our perfumes.",
+    notes: {
+      top: ["Vanilla", "Orange Blossom"],
+      heart: ["Jasmine", "Iris"],
+      base: ["Musk", "Tonka Bean"]
+    },
+    ingredients: ["Talc", "Parfum", "Silica", "Limonene", "Geraniol"]
   }
 ];
