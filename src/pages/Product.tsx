@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import { products } from "@/data/products";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ShoppingCart } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { toast } from "sonner";
 
 const Product = () => {
@@ -26,11 +26,6 @@ const Product = () => {
 
   const recommendedProducts = products.filter((p) => p.id !== id).slice(0, 4);
 
-  const handleAddToCart = () => {
-    toast.success("Added to cart!", {
-      description: `${product.name} has been added to your cart.`,
-    });
-  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -115,15 +110,6 @@ const Product = () => {
               </p>
             </div>
 
-            {/* Add to Cart */}
-            <Button
-              size="lg"
-              className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
-              onClick={handleAddToCart}
-            >
-              <ShoppingCart className="mr-2 h-5 w-5" />
-              Add to Cart
-            </Button>
           </div>
         </div>
 
