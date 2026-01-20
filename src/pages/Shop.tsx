@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 const Shop = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", "Eau de Parfum", "Eau de Toilette", "Parfum", "Body Lotion"];
+  const categories = ["All", "100 ml", "60 & 30 ml", "Body Powders", "Body Lotion"];
 
   const filteredProducts =
     selectedCategory === "All"

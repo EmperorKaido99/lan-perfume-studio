@@ -26,7 +26,7 @@ export const products: Product[] = [
     id: "1",
     name: "Noir Elegance",
     price: 250,
-    category: "Eau de Parfum",
+    category: "100 ml",
     image: kmProduct1,
     description: "A captivating blend of mystery and sophistication. Noir Elegance opens with fresh bergamot and transitions into a heart of rose and jasmine, settling on a warm base of amber and vanilla.",
     notes: {
@@ -54,7 +54,7 @@ export const products: Product[] = [
     id: "3",
     name: "Midnight Essence",
     price: 250,
-    category: "Parfum",
+    category: "60 & 30 ml",
     image: kmProduct3,
     description: "An intense and unforgettable fragrance for the bold. Midnight Essence combines spicy notes with deep woods and leather for a truly distinctive character.",
     notes: {
@@ -68,7 +68,7 @@ export const products: Product[] = [
     id: "4",
     name: "Rose Imperial",
     price: 60,
-    category: "Body Powder",
+    category: "Body Powders",
     image: kmProduct6,
     description: "A luxurious tribute to the queen of flowers. Rose Imperial is a rich, velvety fragrance that celebrates the timeless beauty of rose with modern sophistication.",
     notes: {
@@ -82,7 +82,7 @@ export const products: Product[] = [
     id: "5",
     name: "Crystal Essence",
     price: 250,
-    category: "Eau de Parfum",
+    category: "100 ml",
     image: kmProduct5,
     description: "Fresh and invigorating, Crystal Essence captures pure elegance with its crystal bottle design and refined notes that last all day.",
     notes: {
@@ -96,7 +96,7 @@ export const products: Product[] = [
     id: "6",
     name: "Luxe Cream",
     price: 60,
-    category: "Body Cream",
+    category: "60 & 30 ml",
     image: kmProduct8,
     description: "Indulgent body cream that hydrates and perfumes the skin with a luxurious, long-lasting fragrance that complements our signature scents.",
     notes: {
@@ -110,7 +110,7 @@ export const products: Product[] = [
     id: "7",
     name: "Royal Signature",
     price: 250,
-    category: "Parfum",
+    category: "60 & 30 ml",
     image: kmProduct2,
     description: "Our most prestigious fragrance in an elegant square bottle. Royal Signature represents the pinnacle of luxury with its bold, unforgettable scent.",
     notes: {
@@ -124,7 +124,7 @@ export const products: Product[] = [
     id: "8",
     name: "Golden Powder",
     price: 60,
-    category: "Body Powder",
+    category: "Body Powders",
     image: kmProduct6,
     description: "Silky body powder with a subtle fragrance that keeps you feeling fresh and luxurious throughout the day. Perfect for layering with our perfumes.",
     notes: {
