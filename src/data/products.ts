@@ -40,7 +40,7 @@ export const products: Product[] = [
     id: "2",
     name: "Golden Dawn",
     price: 60,
-    category: "Body Cream",
+    category: "Body Lotion",
     image: kmProduct8,
     description: "Embrace the warmth of a new beginning. Golden Dawn features citrus notes that evolve into floral elegance, finished with hints of musk and cedar.",
     notes: {
