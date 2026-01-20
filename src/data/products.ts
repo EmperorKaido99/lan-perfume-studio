@@ -1,3 +1,11 @@
+import kmProduct1 from "@/assets/km-product-1.jpg";
+import kmProduct2 from "@/assets/km-product-2.jpg";
+import kmProduct3 from "@/assets/km-product-3.jpg";
+import kmProduct4 from "@/assets/km-product-4.jpg";
+import kmProduct5 from "@/assets/km-product-5.jpg";
+import kmProduct6 from "@/assets/km-product-6.jpg";
+import kmProduct8 from "@/assets/km-product-8.jpg";
+
 export interface Product {
   id: string;
   name: string;
@@ -19,7 +27,7 @@ export const products: Product[] = [
     name: "Noir Elegance",
     price: 250,
     category: "Eau de Parfum",
-    image: "/src/assets/product-real-1.jpg",
+    image: kmProduct1,
     description: "A captivating blend of mystery and sophistication. Noir Elegance opens with fresh bergamot and transitions into a heart of rose and jasmine, settling on a warm base of amber and vanilla.",
     notes: {
       top: ["Bergamot", "Black Pepper", "Cardamom"],
@@ -33,7 +41,7 @@ export const products: Product[] = [
     name: "Golden Dawn",
     price: 60,
     category: "Body Cream",
-    image: "/src/assets/product-real-2.jpg",
+    image: kmProduct8,
     description: "Embrace the warmth of a new beginning. Golden Dawn features citrus notes that evolve into floral elegance, finished with hints of musk and cedar.",
     notes: {
       top: ["Mandarin", "Lemon", "Grapefruit"],
@@ -47,7 +55,7 @@ export const products: Product[] = [
     name: "Midnight Essence",
     price: 250,
     category: "Parfum",
-    image: "/src/assets/product-real-3.jpg",
+    image: kmProduct3,
     description: "An intense and unforgettable fragrance for the bold. Midnight Essence combines spicy notes with deep woods and leather for a truly distinctive character.",
     notes: {
       top: ["Saffron", "Nutmeg", "Cinnamon"],
@@ -61,7 +69,7 @@ export const products: Product[] = [
     name: "Rose Imperial",
     price: 60,
     category: "Body Powder",
-    image: "/src/assets/product-real-4.jpg",
+    image: kmProduct6,
     description: "A luxurious tribute to the queen of flowers. Rose Imperial is a rich, velvety fragrance that celebrates the timeless beauty of rose with modern sophistication.",
     notes: {
       top: ["Pink Pepper", "Mandarin"],
@@ -75,7 +83,7 @@ export const products: Product[] = [
     name: "Crystal Essence",
     price: 250,
     category: "Eau de Parfum",
-    image: "/src/assets/product-real-5.jpg",
+    image: kmProduct5,
     description: "Fresh and invigorating, Crystal Essence captures pure elegance with its crystal bottle design and refined notes that last all day.",
     notes: {
       top: ["Sea Salt", "Bergamot", "Mint"],
@@ -89,7 +97,7 @@ export const products: Product[] = [
     name: "Luxe Cream",
     price: 60,
     category: "Body Cream",
-    image: "/src/assets/product-real-6.jpg",
+    image: kmProduct8,
     description: "Indulgent body cream that hydrates and perfumes the skin with a luxurious, long-lasting fragrance that complements our signature scents.",
     notes: {
       top: ["Star Anise", "Pink Pepper"],
@@ -103,7 +111,7 @@ export const products: Product[] = [
     name: "Royal Signature",
     price: 250,
     category: "Parfum",
-    image: "/src/assets/product-real-7.jpg",
+    image: kmProduct2,
     description: "Our most prestigious fragrance in an elegant square bottle. Royal Signature represents the pinnacle of luxury with its bold, unforgettable scent.",
     notes: {
       top: ["Saffron", "Bergamot", "Cardamom"],
@@ -117,7 +125,7 @@ export const products: Product[] = [
     name: "Golden Powder",
     price: 60,
     category: "Body Powder",
-    image: "/src/assets/product-real-8.jpg",
+    image: kmProduct6,
     description: "Silky body powder with a subtle fragrance that keeps you feeling fresh and luxurious throughout the day. Perfect for layering with our perfumes.",
     notes: {
       top: ["Vanilla", "Orange Blossom"],
