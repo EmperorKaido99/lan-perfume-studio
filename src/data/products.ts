@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "3",
     name: "Midnight Essence",
-    price: 250,
+    price: 150,
     category: "60 & 30 ml",
     image: kmProduct3,
     description: "An intense and unforgettable fragrance for the bold. Midnight Essence combines spicy notes with deep woods and leather for a truly distinctive character.",
@@ -75,7 +75,6 @@ export const products: Product[] = [
     },
     ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Eugenol"],
     sizeVariants: [
-      { size: "30ml", price: 90 },
       { size: "60ml", price: 150 },
       { size: "100ml", price: 250 }
     ]
@@ -117,7 +116,7 @@ export const products: Product[] = [
     id: "6",
     name: "Luxe Cream",
     price: 60,
-    category: "60 & 30 ml",
+    category: "Body Lotion",
     image: kmProduct8,
     description: "Indulgent body cream that hydrates and perfumes the skin with a luxurious, long-lasting fragrance that complements our signature scents.",
     notes: {
@@ -125,17 +124,12 @@ export const products: Product[] = [
       heart: ["Turkish Rose", "Incense", "Myrrh"],
       base: ["Agarwood", "Vanilla", "Leather"]
     },
-    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Benzyl Benzoate", "Cinnamal"],
-    sizeVariants: [
-      { size: "30ml", price: 90 },
-      { size: "60ml", price: 150 },
-      { size: "100ml", price: 250 }
-    ]
+    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Benzyl Benzoate", "Cinnamal"]
   },
   {
     id: "7",
     name: "Royal Signature",
-    price: 250,
+    price: 90,
     category: "60 & 30 ml",
     image: kmProduct2,
     description: "Our most prestigious fragrance in an elegant square bottle. Royal Signature represents the pinnacle of luxury with its bold, unforgettable scent.",
@@ -146,9 +140,7 @@ export const products: Product[] = [
     },
     ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Linalool"],
     sizeVariants: [
-      { size: "30ml", price: 90 },
-      { size: "60ml", price: 150 },
-      { size: "100ml", price: 250 }
+      { size: "30ml", price: 90 }
     ]
   },
   {
