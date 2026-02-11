@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -5,11 +6,17 @@ import ProductCard from "@/components/ProductCard";
 import { products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-import { toast } from "sonner";
 
 const Product = () => {
   const { id } = useParams();
   const product = products.find((p) => p.id === id);
+  const [selectedSize, setSelectedSize] = useState(
+    product?.sizeVariants?.[product.sizeVariants.length - 1]?.size || ""
+  );
+
+  const currentPrice = product?.sizeVariants
+    ? product.sizeVariants.find((v) => v.size === selectedSize)?.price || product.price
+    : product?.price;
 
   if (!product) {
     return (
@@ -61,9 +68,32 @@ const Product = () => {
                 {product.name}
               </h1>
               <p className="text-3xl text-primary font-body font-bold">
-                R{product.price}
+                R{currentPrice}
               </p>
             </div>
+
+            {/* Size Variants */}
+            {product.sizeVariants && product.sizeVariants.length > 0 && (
+              <div className="space-y-3">
+                <h3 className="font-display text-xl text-foreground">Select Size</h3>
+                <div className="flex gap-3">
+                  {product.sizeVariants.map((variant) => (
+                    <button
+                      key={variant.size}
+                      onClick={() => setSelectedSize(variant.size)}
+                      className={`flex flex-col items-center px-5 py-3 rounded-lg border-2 transition-all ${
+                        selectedSize === variant.size
+                          ? "border-primary bg-primary/10 text-foreground"
+                          : "border-border bg-card text-muted-foreground hover:border-primary/50"
+                      }`}
+                    >
+                      <span className="font-body font-bold text-sm">{variant.size}</span>
+                      <span className="font-body text-xs mt-1">R{variant.price}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
               {product.description}

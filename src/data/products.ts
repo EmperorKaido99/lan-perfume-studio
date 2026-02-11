@@ -6,6 +6,11 @@ import kmProduct5 from "@/assets/km-product-5.jpg";
 import kmProduct6 from "@/assets/km-product-6.jpg";
 import kmProduct8 from "@/assets/km-product-8.jpg";
 
+export interface SizeVariant {
+  size: string;
+  price: number;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -19,6 +24,7 @@ export interface Product {
     base: string[];
   };
   ingredients: string[];
+  sizeVariants?: SizeVariant[];
 }
 
 export const products: Product[] = [
@@ -34,7 +40,12 @@ export const products: Product[] = [
       heart: ["Rose", "Jasmine", "Iris"],
       base: ["Amber", "Vanilla", "Sandalwood"]
     },
-    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Limonene", "Linalool", "Citral"]
+    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Limonene", "Linalool", "Citral"],
+    sizeVariants: [
+      { size: "30ml", price: 90 },
+      { size: "60ml", price: 150 },
+      { size: "100ml", price: 250 }
+    ]
   },
   {
     id: "2",
@@ -62,7 +73,12 @@ export const products: Product[] = [
       heart: ["Oud", "Patchouli", "Leather"],
       base: ["Vetiver", "Tobacco", "Amber"]
     },
-    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Eugenol"]
+    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Eugenol"],
+    sizeVariants: [
+      { size: "30ml", price: 90 },
+      { size: "60ml", price: 150 },
+      { size: "100ml", price: 250 }
+    ]
   },
   {
     id: "4",
@@ -90,7 +106,12 @@ export const products: Product[] = [
       heart: ["Marine Accord", "Lavender"],
       base: ["Driftwood", "Ambergris"]
     },
-    ingredients: ["Aqua", "Parfum", "Glycerin", "Limonene", "Linalool"]
+    ingredients: ["Aqua", "Parfum", "Glycerin", "Limonene", "Linalool"],
+    sizeVariants: [
+      { size: "30ml", price: 90 },
+      { size: "60ml", price: 150 },
+      { size: "100ml", price: 250 }
+    ]
   },
   {
     id: "6",
@@ -104,7 +125,12 @@ export const products: Product[] = [
       heart: ["Turkish Rose", "Incense", "Myrrh"],
       base: ["Agarwood", "Vanilla", "Leather"]
     },
-    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Benzyl Benzoate", "Cinnamal"]
+    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Benzyl Benzoate", "Cinnamal"],
+    sizeVariants: [
+      { size: "30ml", price: 90 },
+      { size: "60ml", price: 150 },
+      { size: "100ml", price: 250 }
+    ]
   },
   {
     id: "7",
@@ -118,7 +144,12 @@ export const products: Product[] = [
       heart: ["Oud", "Rose", "Jasmine"],
       base: ["Amber", "Sandalwood", "Musk"]
     },
-    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Linalool"]
+    ingredients: ["Alcohol Denat", "Parfum", "Aqua", "Coumarin", "Linalool"],
+    sizeVariants: [
+      { size: "30ml", price: 90 },
+      { size: "60ml", price: 150 },
+      { size: "100ml", price: 250 }
+    ]
   },
   {
     id: "8",
