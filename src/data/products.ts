@@ -65,7 +65,7 @@ export const products: Product[] = [
     id: "3",
     name: "Midnight Essence",
     price: 150,
-    category: "60 ml",
+    category: "60 & 30 ml",
     image: kmProduct3,
     description: "An intense and unforgettable fragrance for the bold. Midnight Essence combines spicy notes with deep woods and leather for a truly distinctive character.",
     notes: {
@@ -130,7 +130,7 @@ export const products: Product[] = [
     id: "7",
     name: "Royal Signature",
     price: 90,
-    category: "30 ml",
+    category: "60 & 30 ml",
     image: kmProduct2,
     description: "Our most prestigious fragrance in an elegant square bottle. Royal Signature represents the pinnacle of luxury with its bold, unforgettable scent.",
     notes: {
@@ -143,18 +143,4 @@ export const products: Product[] = [
       { size: "30ml", price: 90 }
     ]
   },
-  {
-    id: "8",
-    name: "Golden Powder",
-    price: 60,
-    category: "Body Powders",
-    image: kmProduct6,
-    description: "Silky body powder with a subtle fragrance that keeps you feeling fresh and luxurious throughout the day. Perfect for layering with our perfumes.",
-    notes: {
-      top: ["Vanilla", "Orange Blossom"],
-      heart: ["Jasmine", "Iris"],
-      base: ["Musk", "Tonka Bean"]
-    },
-    ingredients: ["Talc", "Parfum", "Silica", "Limonene", "Geraniol"]
-  }
 ];
